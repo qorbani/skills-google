@@ -1,0 +1,63 @@
+#
+#  Mac OSX Files
+#
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+#
+#  Windows Files
+#
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+Desktop.ini
+
+#
+#  IDE/Editors
+#
+.idea/
+
+#
+#  Python
+#
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+#
+#  Terraform
+#
+
+# Ref: https://github.com/github/gitignore/blob/main/Terraform.gitignore?ref=techielass.com
+**/.terraform/*
+*.auto.tfvars
+*.tfoverride
+.envrc
+.terraformrc
+terraform.rc
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+.terraformrc
+terraform.rc
+
+#
+#  Project Specific
+#
+*.tmp
+*.log
+tmp.*
+*.env
+.env
+.env.*
+.env/*
+*.private
+*.private.*
